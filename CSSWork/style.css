@@ -1,24 +1,51 @@
 .container{
     background-color: brown;
     height:500px;
-    width: 100%;
-    
+    width: 1000px;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
 }
 .child1,.child3,.child4,.child2{
     border: 2px solid;
-    height: 100px;
-    width: 100px;
+    height: 300px;
+    width: 230px;   
     display: inline-block;
 }
 .child1{
-    background-color: rgb(240, 200, 151);
+    background-color: rgb(198, 156, 223);
+    display: flex;
+    gap: 2px;;
+    flex-basis: 40%;
 }
+.child11,.child12,.child13,.child14{
+    background-color: bisque;
+    border: dotted #000000;
+}
+.child11{
+    background-color: aqua;    
+}
+.child12{
+    background-color: rgb(55, 156, 118);    
+}
+.child13{
+    background-color: rgb(170, 218, 60);    
+}
+.child14{
+    background-color: rgb(221, 181, 48);    
+}
+
 .child2{
-    background-color: rgb(231, 165, 85);
+    background-color: rgb(241, 229, 214);
+    display: grid;
+}
+.child21,.child22,.child23,.child24{
+    background-color: bisque;
+    border: dotted rgb(23, 13, 167);
 }
 .child3{
-    background-color: rgb(172, 112, 29);
+    background-color: rgb(139, 139, 139);
 }
 .child4{
-    background-color: rgb(133, 79, 14);
+    background-color: rgb(230, 225, 219);
 }
